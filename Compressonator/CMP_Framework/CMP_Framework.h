@@ -374,7 +374,7 @@ extern "C"
     CMP_FORMAT CMP_API CMP_ParseFormat(char* pFormat);
     CMP_INT    CMP_API CMP_NumberOfProcessors();
     CMP_VOID   CMP_API CMP_FreeMipSet(CMP_MipSet *MipSetIn);
-    CMP_VOID   CMP_API CMP_GetMipLevel(CMP_MipLevel *data, const CMP_MipSet* pMipSet, CMP_INT nMipLevel, CMP_INT nFaceOrSlice);
+    CMP_VOID   CMP_API CMP_GetMipLevel(CMP_MipLevel **data, const CMP_MipSet* pMipSet, CMP_INT nMipLevel, CMP_INT nFaceOrSlice);
     
     //--------------------------------------------
     // CMP_Compute Lib: Host level interface
